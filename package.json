@@ -1,6 +1,7 @@
 {
   "name": "movie-app",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "scripts": {
     "dev": "parcel ./index.html",
@@ -11,8 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node-fetch": "^2.6.11",
     "dotenv": "^16.4.5",
     "parcel": "^2.12.0",
+    "typescript": "^5.4.5",
     "vercel": "^33.7.0"
   },
   "dependencies": {
